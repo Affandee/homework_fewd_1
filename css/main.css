@@ -1,0 +1,131 @@
+body{
+    margin:0
+}
+.flex.panel{
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 15px 5px 5px;
+    margin: 0
+}
+.flex {
+    display: flex;
+    flex-wrap: ;
+
+}
+
+.navigation nav a{
+    font-size: x-large;
+    text-decoration: none;
+    color:white;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: rgb(20, 224, 173) transparent;
+    margin-right: 15px;
+}
+#logo{
+    color: chartreuse;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.flex.panel{
+    border-bottom: yellow solid 5px;
+
+}
+
+.quote{
+    background-color: gray;
+    margin: 0;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 1000;
+    font-style:italic;
+    font-size:xx-large;
+}
+
+#taste{
+    text-decoration:line-through;
+}
+
+#are{
+    text-decoration: underline yellow;
+}
+
+.background{
+    background-image: url(/img/man-791049_1280.jpg);
+    background-size: cover;
+    height: 400px;
+    padding:100px 60px 30px 70%;
+    flex-direction: row-reverse;
+}
+
+.profile{
+    font-size: large;
+    flex-direction: column;
+    block-size: 55%;
+    border-style:hidden;
+    border-radius: 5px;
+    background-color:white;
+    padding: 50px 50px;
+    box-shadow: 10px 10px 8px rgb(41, 44, 41)
+    
+}
+
+.profile p{
+    font-size: large;
+}
+
+.profile a{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 15px;
+    border-radius:5px;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.option{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.create{
+
+    margin:0px 60px;
+    padding: 0px 50px;
+}
+
+.create p{
+    font-size: large;
+}
+.create a{
+    border-style: solid grey;
+    text-decoration: none;
+    color:black;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.all{
+    background-color: grey;
+    color:black;
+    border-style:hidden;
+    border-radius: 5px;
+    padding:15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+footer{
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
